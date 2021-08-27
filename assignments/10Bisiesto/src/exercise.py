@@ -1,5 +1,5 @@
 
-def es_bisiesto(year):
+def main(year):
     if year%4==0:
         return True
     elif year%100==0:
@@ -11,7 +11,7 @@ def es_bisiesto(year):
     
 year=int(input())
          
-print(es_bisiesto(year))
+print(main(year))
 
 if __name__=='__main__':
     main()
