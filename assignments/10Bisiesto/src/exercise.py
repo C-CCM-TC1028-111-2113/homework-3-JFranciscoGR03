@@ -9,9 +9,6 @@ def es_bisiesto(year):
     else:
         return False
     
-def main():
-    #escribe tu código abajo de esta línea
-    
 year=int(input())
          
 print(es_bisiesto(year))
