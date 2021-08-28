@@ -3,7 +3,7 @@ def area(b,h):
     return a
 
 def volumen(area,p):
-    v=(area(b,h))*p
+    v=area*p
     return v
 
 def main():
