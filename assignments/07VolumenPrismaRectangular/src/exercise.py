@@ -1,13 +1,13 @@
 def area(b,a):
     ar=b*a
-    return float(ar)
+    return ar
 
 def volumen(area,p):
     vol=area(b,a)*p
     return vol
 
-def main(volumen):
-    global b,a,p
+def main():
+    #escribe tu código abajo de esta línea
     b=float(input("Dame la base: "))
     a=float(input("Dame la altura: "))
     p=float(input("Dame la profundidad: "))
