@@ -8,14 +8,13 @@ def es_bisiesto(year):
         return True
     else:
         return False
-    
-year=int(input())
-         
-print(es_bisiesto(year))
 
 def main():
     #escribe tu código abajo de esta línea
-    pass
+   year=int(input())
+   print(es_bisiesto(year))
+
+
 
 if __name__=='__main__':
     main()
