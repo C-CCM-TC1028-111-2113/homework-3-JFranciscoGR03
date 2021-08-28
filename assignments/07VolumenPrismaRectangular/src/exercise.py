@@ -1,15 +1,15 @@
-def area(b,a):
-    ar=b*a
-    return ar
+def area(b,h):
+    a=b*h
+    return a
 
 def volumen(area,p):
-    vol=area(b,a)*p
-    return vol
+    v=area(b,h)*p
+    return v
 
 def main():
     #escribe tu código abajo de esta línea
     b=float(input("Dame la base: "))
-    a=float(input("Dame la altura: "))
+    h=float(input("Dame la altura: "))
     p=float(input("Dame la profundidad: "))
     print("El volumen del prisma es:",volumen(area,p))
 
