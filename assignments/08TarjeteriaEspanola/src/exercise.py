@@ -2,7 +2,7 @@
 def numMax(pliegos,plumones):
     tarPli=pliegos*12
     tarPlu=plumones*35
-    if tarpli>tarplu:
+    if tarPli>tarPlu:
         print("El número máximo de tarjetas que se pueden hacer es:", tarPlu)
     else:
         print("El número máximo de tarjetas que se pueden hacer es:", tarPli)
