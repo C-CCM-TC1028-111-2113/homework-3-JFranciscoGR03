@@ -1,6 +1,3 @@
-
-def main():
-    #escribe tu código abajo de esta línea
     
 def es_bisiesto(year):
     if year%4==0:
@@ -15,6 +12,10 @@ def es_bisiesto(year):
 year=int(input())
          
 print(es_bisiesto(year))
+
+def main():
+    #escribe tu código abajo de esta línea
+    pass
 
 if __name__=='__main__':
     main()
