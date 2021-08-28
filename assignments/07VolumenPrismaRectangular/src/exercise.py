@@ -1,4 +1,5 @@
 def area(b,h):
+    global b,h
     a=b*h
     return a
 
